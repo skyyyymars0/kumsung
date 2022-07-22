@@ -14,8 +14,3 @@ header.hover(
     header.removeClass('headerOpen');
   }
 );
-
-const mobileBurger = $('.mobile-burger');
-mobileBurger.click(function () {
-  console.log('h2');
-});
