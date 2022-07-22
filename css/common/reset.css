@@ -1,0 +1,48 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --point-color: #2b66f6;
+  --main-color: #333333;
+  --footer-main-color: #b2b8c0;
+  --footer-point-color: #6d7683;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+th,
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border: 1px solid #eeeeee;
+}
+

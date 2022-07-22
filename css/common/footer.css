@@ -1,0 +1,198 @@
+footer {
+  width: 100%;
+  background-color: #222222;
+}
+
+.inner-footer {
+  width: 100%;
+  width: 1586px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 70px 0;
+}
+
+.inner-footer .left-fcon {
+  flex: 1;
+  height: auto;
+  margin-right: 22px;
+}
+
+.inner-footer .left-fcon ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-footer .left-fcon ul li a {
+  color: var(--footer-main-color);
+}
+
+.inner-footer .left-fcon .link {
+  max-width: 656px;
+}
+
+.inner-footer .left-fcon .kumsung {
+  padding-top: 56px;
+  padding-bottom: 38px;
+}
+
+.inner-footer .left-fcon .kumsung h2 {
+  width: 100%;
+  height: auto;
+  font-size: 28px;
+
+  color: var(--footer-main-color);
+}
+
+.inner-footer .left-fcon .kumsung p {
+  color: var(--footer-point-color);
+  font-size: 12px;
+}
+
+.inner-footer .left-fcon .sns {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+}
+
+.inner-footer .left-fcon .sns > ul > li {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(1) {
+  background: url(../../img/index/footer/ico-kakao.png) no-repeat 50% / cover;
+}
+.inner-footer .left-fcon .sns > ul > li:nth-child(1):hover {
+  background: url(../../img/index/footer/ico-kakao-on.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(2) {
+  background: url(../../img/index/footer/ico-blog.png) no-repeat 50% / cover;
+}
+.inner-footer .left-fcon .sns > ul > li:nth-child(2):hover {
+  background: url(../../img/index/footer/ico-blog-on.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(3) {
+  background: url(../../img/index/footer/ico-ist.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(3):hover {
+  background: url(../../img/index/footer/ico-ist-on.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(4) {
+  background: url(../../img/index/footer/ico-fb.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(4):hover {
+  background: url(../../img/index/footer/ico-fb-on.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(5) {
+  background: url(../../img/index/footer/ico-yt.png) no-repeat 50% / cover;
+}
+
+.inner-footer .left-fcon .sns > ul > li:nth-child(5):hover {
+  background: url(../../img/index/footer/ico-yt-on.png) no-repeat 50% / cover;
+}
+
+/* ----right-con */
+.inner-footer .right-fcon {
+  flex: 1;
+  height: auto;
+}
+
+.inner-footer .right-fcon .family-site-li {
+  padding-top: 52px;
+  max-width: 304px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-footer .right-fcon .family-site-li li:not(:last-child) {
+  padding-bottom: 22px;
+}
+
+.inner-footer .right-fcon .family-site-li a {
+  position: relative;
+  /* border: 1px solid; */
+}
+
+.inner-footer .right-fcon .family-site-li a::after {
+  content: '';
+  display: inline;
+  width: 15px;
+  height: 15px;
+  background: url(../../img/index/footer/icon-fav.png) no-repeat 50% / cover;
+  position: absolute;
+
+  top: 25%;
+  margin-left: 5px;
+}
+
+.inner-footer .right-fcon h5 {
+  color: var(--footer-main-color);
+}
+
+.inner-footer .right-fcon a {
+  color: var(--footer-point-color);
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    background-color: #222222;
+  }
+
+  .inner-footer {
+    max-width: 600px;
+    flex-direction: column;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-top: 35px;
+    padding-bottom: 85px;
+  }
+
+  .inner-footer .left-fcon {
+    order: 2;
+    padding-top: 20px;
+  }
+  .inner-footer .left-fcon .link {
+    max-width: 600px;
+  }
+
+  .inner-footer .left-fcon .kumsung {
+    padding-top: 46px;
+    padding-bottom: 0px;
+  }
+
+  .inner-footer .left-fcon .kumsung h2 {
+    font-size: 16px;
+  }
+
+  .inner-footer .left-fcon .kumsung p {
+    font-size: 12px;
+  }
+
+  .inner-footer .right-fcon {
+    order: 1;
+  }
+  .inner-footer .right-fcon h5 {
+    font-size: 16px;
+  }
+
+  .inner-footer .right-fcon .family-site-li {
+    padding-top: 22px;
+  }
+  .inner-footer .sns {
+    padding-top: 35px;
+  }
+}
